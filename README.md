@@ -20,6 +20,8 @@ Once the requirements have been installed, run the environment via:
 
 ## Running with Docker
 
+### Self Built
+
 This repository contains a Docker configuration to support building an image to run the visualization. To build the image, make sure you are in the project directory and execute the following command. Be sure to replace `<your_image_name>` with whatever you wish to name your image.
 
 ```
@@ -30,6 +32,14 @@ When completed, simply run the following command
 
 ```
 docker run <your_image_name>
+```
+
+### Official Docker Image
+
+There is an official Docker image which is automatically built from this repository. To utilize the official Docker image, simple run the following:
+
+```
+docker run gatsiva/dash-returns-example
 ```
 
 ## Viewing the Visualization
