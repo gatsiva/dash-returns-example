@@ -3,6 +3,7 @@ vv/
 __pycache__/
 *.py[cod]
 *$py.class
+Procfile
 
 # C extensions
 *.so
