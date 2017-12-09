@@ -210,4 +210,4 @@ def update_output(n_clicks, symbol, condition, api_key, start_date, end_date):
     return graphs
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=True, host='0.0.0.0')
